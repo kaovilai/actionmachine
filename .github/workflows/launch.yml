@@ -22,9 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Set secrets
-        env:
-          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+#       - name: Set secrets
+#         env:
+#           NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
